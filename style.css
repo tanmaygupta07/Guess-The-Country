@@ -1,0 +1,79 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 580px;
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 15px 15px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    margin-top: 60px;
+}
+
+#description {
+    height: 180px;
+    width: 180px;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 1.4rem;
+    width: 400px;
+    height: 45px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 5px 0px,
+        rgba(0, 0, 0, 0.25) 2px -2px 5px 0px;
+    border-radius: 5px;
+    padding: 0px 7px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid rgb(56, 156, 256);
+}
+
+#result,
+#score,
+#timer {
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+#restart-button {
+    box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 3px,
+        rgba(0, 0, 0, 0.25) 2px -2px 3px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    transition: transform ease-in-out;
+}
+
+#restart-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
